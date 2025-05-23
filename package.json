@@ -1,0 +1,25 @@
+{
+  "name": "bun-server",
+  "module": "./src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot run src/index.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "engines": {
+    "bun": ">1.2.14"
+  },
+  "engineStrict": true
+}
